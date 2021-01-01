@@ -80,7 +80,7 @@ ul {
   color: white;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
   background-image: url(/img/heroimg.jpg);
   background-position: center;
   background-size: cover;
@@ -154,10 +154,5 @@ ul {
 @media (max-width: 520px) {
   .container {
     width: 100vw;
-  }
-
-  .panel:nth-of-type(4),
-  .panel:nth-of-type(5) {
-    display: none;
   }
 }
