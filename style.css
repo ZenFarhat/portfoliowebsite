@@ -95,7 +95,8 @@ ul {
   flex-direction: column;
   height: 250px;
   justify-content: center;
-  border: 10px solid white;
+  border-top: solid white 10px;
+  border-bottom: solid white 10px;
 }
 
 .orange {
