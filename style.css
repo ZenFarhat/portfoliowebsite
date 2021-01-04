@@ -111,11 +111,13 @@ ul {
 .aboutme {
   background: black;
   color: white;
-  padding: 5rem;
+  padding: 5rem 5rem;
 }
 
 .aboutme-main {
   text-align: center;
+  padding: 10rem 5rem;
+  line-height: 2;
 }
 
 .interests {
@@ -123,13 +125,24 @@ ul {
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding: 5rem;
+  padding: 10rem 5rem;
+  flex-wrap: wrap;
 }
 
 .interest {
   display: flex;
   flex: 25%;
   flex-direction: column;
+}
+
+.icon {
+  padding: 3rem 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.4);
+  color: var(--orange);
 }
 
 /* MEDIA QUERIES */
