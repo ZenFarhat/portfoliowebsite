@@ -108,51 +108,53 @@ ul {
 }
 
 /* About Me */
-.aboutme-heading {
-  text-align: center;
-  padding: 30px 0px;
-}
-
-.aboutme-cards {
+#aboutme {
   display: flex;
-  width: 90vw;
-  margin: auto;
-}
-
-.panel {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 80vh;
-  border-radius: 50px;
+  height: 100vh;
+  max-width: 100vw;
+  flex-wrap: wrap;
+  line-height: 2;
+  background-color: black;
   color: white;
-  cursor: pointer;
-  flex: 0.5;
-  margin: 10px;
-  position: relative;
-  transition: flex 0.7s ease-in;
 }
 
-.panel h3 {
-  font-size: 24px;
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  margin: 0;
-  opacity: 0;
+.aboutme-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 20rem;
 }
 
-.panel.active {
-  flex: 5;
+.aboutme-interest-1,
+.aboutme-interest-2 {
+  display: flex;
+  flex: 1 1 20rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.panel.active h3 {
-  opacity: 1;
-  transition: opacity 0.3s ease-in 0.4s;
+.interest-heading {
+  font-size: 32px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: var(--orange);
 }
 
-@media (max-width: 520px) {
-  .container {
-    width: 100vw;
-  }
+.icon {
+  color: var(--orange);
+  transition: color 0.2s ease-in-out;
 }
+
+.icon:hover {
+  color: white;
+}
+
+.aboutme-mainhead {
+  color: var(--orange);
+}
+
+/* MEDIA QUERIES */
