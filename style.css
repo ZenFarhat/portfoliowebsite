@@ -108,53 +108,28 @@ ul {
 }
 
 /* About Me */
-#aboutme {
-  display: flex;
-  height: 100vh;
-  max-width: 100vw;
-  flex-wrap: wrap;
-  line-height: 2;
-  background-color: black;
+.aboutme {
+  background: black;
   color: white;
+  padding: 5rem;
 }
 
-.aboutme-text {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  flex: 1 1 20rem;
-}
-
-.aboutme-interest-1,
-.aboutme-interest-2 {
-  display: flex;
-  flex: 1 1 20rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.aboutme-main {
   text-align: center;
 }
 
-.interest-heading {
-  font-size: 32px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  color: var(--orange);
+.interests {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
 }
 
-.icon {
-  color: var(--orange);
-  transition: color 0.2s ease-in-out;
-}
-
-.icon:hover {
-  color: white;
-}
-
-.aboutme-mainhead {
-  color: var(--orange);
+.interest {
+  display: flex;
+  flex: 25%;
+  flex-direction: column;
 }
 
 /* MEDIA QUERIES */
