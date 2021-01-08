@@ -43,3 +43,12 @@ nav {
   display: flex;
   margin: 0 2.5rem;
 }
+
+/* Hero Section */
+
+.hero {
+  background-image: url(img/hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
