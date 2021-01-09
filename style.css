@@ -1,11 +1,24 @@
 /* Imports and vars */
 
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Ubuntu:wght@400;700&display=swap");
+
+:root {
+  --text-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  --orange: #ff5a00;
+  --arvo-font: "Arvo", serif;
+  --bebas-font: "Bebas Neue", cursive;
+  --ubuntu-font: "Ubuntu", sans-serif;
+}
 /* Global Styles */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ubuntu-font);
 }
 
 ul {
@@ -15,6 +28,7 @@ ul {
 a {
   text-decoration: none;
   color: black;
+  font-family: var(--bebas-font);
 }
 
 /* Section design */
@@ -31,12 +45,22 @@ nav {
 .nav-logo {
   display: flex;
   flex: 1 1 50%;
+  font-size: 2rem;
+  font-family: var(--bebas-font);
+  font-weight: lighter;
+  letter-spacing: 5px;
 }
 
 .nav-list {
   display: flex;
-  flex: 1 50%;
+  flex: 1 1 50%;
   justify-content: flex-end;
+  align-items: center;
+  height: 63px;
+}
+
+nav a {
+  font-size: 2rem;
 }
 
 .nav-item {
@@ -50,5 +74,71 @@ nav {
   background-image: url(img/hero-bg.jpg);
   background-position: center;
   background-size: cover;
-  height: 90vh;
+  min-height: 90vh;
+  padding: 0 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 2;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+
+.hero-text h1 {
+  font-size: 10rem;
+  color: white;
+
+  text-shadow: var(--text-shadow);
+}
+
+.hero-text h2 {
+  font-size: 4rem;
+  color: white;
+}
+
+.contact-btn {
+  margin-top: 100px;
+  padding: 16px 50px;
+  font-size: 2.5rem;
+  background-color: transparent;
+  border: white 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-btn a {
+  color: white;
+}
+
+.contact-btn:focus {
+  outline: none;
+}
+
+.contact-btn:active {
+  transform: scale(0.98);
+}
+
+.contact-btn:hover {
+  background-color: gray;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.pro {
+  color: var(--orange);
+  text-decoration: underline;
+}
+
+/* About me section */
+
+.aboutme {
+  min-height: 80vh;
+  padding: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
