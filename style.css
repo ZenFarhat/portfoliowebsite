@@ -15,6 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -31,8 +32,19 @@ a {
   font-family: var(--bebas-font);
 }
 
+hr {
+  height: 20px;
+  margin: 0 47%;
+  border-top: black dotted 10px;
+  opacity: 0.8;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
 /* Section design */
 
+/* Navbar */
 nav {
   display: flex;
   justify-content: center;
@@ -109,6 +121,7 @@ nav a {
   border: white 1px solid;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
 }
 
 .contact-btn a {
@@ -125,12 +138,15 @@ nav a {
 
 .contact-btn:hover {
   background-color: gray;
-  transition: background-color 0.5s ease-in-out;
 }
 
 .pro {
   color: var(--orange);
   text-decoration: underline;
+}
+
+.hero-hr {
+  margin-top: 10px;
 }
 
 /* About me section */
@@ -141,4 +157,111 @@ nav a {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+.aboutme-text {
+  display: flex;
+  flex: 1 1 50%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.aboutme-heading {
+  font-size: 5rem;
+  margin: 50px 0;
+}
+
+.aboutme-interests {
+  display: flex;
+  flex: 1 1 50%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2.5rem;
+}
+
+.icon-heading {
+  font-size: 2rem;
+}
+.aboutme-card {
+  text-align: center;
+}
+
+.card-text {
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+
+.aboutme-icon {
+  transition: all 0.3s ease-in-out;
+}
+
+.aboutme-icon:hover {
+  color: var(--orange);
+  transform: scale(1.3);
+}
+
+/* Skills */
+.skills {
+  padding: 2.5rem;
+  text-align: center;
+}
+
+.skills-heading {
+  font-size: 5rem;
+  margin: 50px 0;
+}
+
+.skills-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  text-align: center;
+  line-height: 2;
+  margin: 30px 0;
+  flex: 20%;
+}
+
+.skill-card p {
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+.skill-icon {
+  transition: all 0.4s ease-in-out;
+}
+
+.skill-icon:hover {
+  transform: scale(1.4);
+}
+
+.fa-star {
+  color: var(--orange);
+}
+
+.html-icon {
+  color: #fc490b;
+}
+
+.css-icon {
+  color: #167dbe;
+}
+
+.js-icon {
+  color: #f7df1e;
+}
+
+.node-icon {
+  color: #689f63;
+}
+
+.java-icon {
+  color: #73a1fb;
 }
