@@ -279,6 +279,9 @@ nav a {
 
 .projects {
   padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .project-heading {
   text-align: center;
@@ -307,17 +310,18 @@ nav a {
   margin: 20px;
 }
 
-.box {
-  height: 200px;
-  width: 200px;
-  background-color: blue;
-}
-
 .projects-images {
   display: flex;
   flex: 5;
   align-items: center;
   justify-content: center;
+}
+
+.video {
+  height: 90vh;
+  width: auto;
+  border: 10px solid black;
+  border-radius: 20px;
 }
 
 /* Javascript Classes */
