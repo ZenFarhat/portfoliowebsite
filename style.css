@@ -145,10 +145,6 @@ nav a {
   text-decoration: underline;
 }
 
-.hero-hr {
-  margin-top: 10px;
-}
-
 /* About me section */
 
 .aboutme {
@@ -227,6 +223,7 @@ nav a {
   line-height: 2;
   margin: 30px 0;
   flex: 20%;
+  padding: 2rem;
 }
 
 .skill-card p {
@@ -264,4 +261,16 @@ nav a {
 
 .java-icon {
   color: #73a1fb;
+}
+
+.bootstrap-icon {
+  color: #8211fa;
+}
+
+.react-icon {
+  color: #61dbfb;
+}
+
+.cl {
+  font-style: italic;
 }
