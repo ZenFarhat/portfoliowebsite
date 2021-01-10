@@ -284,8 +284,9 @@ nav a {
   flex-wrap: wrap;
 }
 .project-heading {
+  font-size: 5rem;
+  margin: 50px 0;
   text-align: center;
-  font-size: 3rem;
 }
 
 .projects-icons {
@@ -318,7 +319,7 @@ nav a {
 }
 
 .video {
-  height: 90vh;
+  height: 70vh;
   width: auto;
   border: 10px solid black;
   border-radius: 20px;
