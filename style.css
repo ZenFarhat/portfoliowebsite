@@ -277,7 +277,51 @@ nav a {
 
 /* projects */
 
-.project-card video {
-  width: 960px;
-  height: 540px;
+.projects {
+  padding: 2.5rem;
+}
+.project-heading {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.projects-icons {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.projects-container {
+  display: flex;
+}
+
+.project-gallery-img {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  background-color: #fc490b;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+
+.projects-images {
+  display: flex;
+  flex: 5;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Javascript Classes */
+
+.hidden {
+  display: none;
 }
