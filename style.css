@@ -279,39 +279,35 @@ nav a {
 
 .projects {
   padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
-
 .project-heading {
   font-size: 5rem;
   padding: 0 2.5rem 2.5rem 2.5rem;
   text-align: center;
 }
 
-.projects-container {
-  display: flex;
-  flex-wrap: wrap;
-}
 .projects-icons {
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
+}
+
+.projects-container {
+  display: flex;
 }
 
 .project-gallery-img {
   display: flex;
-  flex-direction: row;
-  cursor: pointer;
-  margin: 20px;
-}
-
-.project-gallery-img img {
   height: 100px;
   width: 100px;
+  background-color: #fc490b;
   border-radius: 20px;
-  border: 5px solid gray;
   cursor: pointer;
   margin: 20px;
 }
