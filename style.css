@@ -274,3 +274,10 @@ nav a {
 .cl {
   font-style: italic;
 }
+
+/* projects */
+
+.project-card video {
+  width: 960px;
+  height: 540px;
+}
