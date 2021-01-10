@@ -279,8 +279,10 @@ nav a {
 
 .projects {
   padding: 2.5rem;
+}
+
+.projects-container {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
 }
 .project-heading {
@@ -296,10 +298,6 @@ nav a {
   flex: 1;
   flex-wrap: wrap;
   flex-direction: column;
-}
-
-.projects-container {
-  display: flex;
 }
 
 .project-gallery-img img {
