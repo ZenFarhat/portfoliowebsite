@@ -439,7 +439,7 @@ footer {
   }
 
   .section {
-    padding: 1rem;
+    padding: 0.5rem;
   }
   html {
     max-width: 100vw;
@@ -451,7 +451,10 @@ footer {
   .hero {
     margin: 0 auto;
     font-size: 2rem;
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .hero-text {
@@ -460,12 +463,21 @@ footer {
     background-color: #1f1f1f;
     width: 100%;
     opacity: 80%;
+    height: auto;
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 0.5rem;
   }
 
-  .hero-text h1,
-  h2,
-  button {
-    opacity: 100%;
+  .hero-text h1 {
+    font-size: 5rem;
+  }
+
+  .hero-text h2 {
+    font-size: 2.5rem;
   }
 
   /* interests */
@@ -495,7 +507,15 @@ footer {
     width: 80vw;
     height: auto;
   }
+
+  .section.contact-form {
+    height: 80vh;
+  }
   .contact-form {
     width: 80vw;
+    padding: 0.5rem;
+  }
+  .contact-form h2 {
+    line-height: 1.5;
   }
 }
