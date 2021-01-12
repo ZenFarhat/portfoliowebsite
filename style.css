@@ -338,7 +338,7 @@ nav a {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 80vw;
+  width: 50vw;
   background-color: #1f1f1f;
   opacity: 0.98;
   text-align: center;
@@ -492,7 +492,7 @@ footer {
   }
 
   .projects-videos video {
-    width: 380px;
+    width: 80vw;
     height: auto;
   }
   .contact-form {
