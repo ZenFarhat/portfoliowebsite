@@ -47,6 +47,12 @@ hr {
   margin: 20px;
 }
 
+.header {
+  text-align: center;
+  font-size: 5rem;
+  padding: 2.5rem;
+}
+
 /* Section design */
 
 /* Navbar */
@@ -209,10 +215,7 @@ nav a {
   text-align: center;
 }
 
-.skills-heading {
-  font-size: 5rem;
-  margin: 50px 0;
-}
+
 
 .skills-container {
   display: flex;
@@ -286,12 +289,6 @@ nav a {
   flex-wrap: wrap;
 }
 
-.project-heading {
-  font-size: 5rem;
-  padding: 0 2.5rem 2.5rem 2.5rem;
-  text-align: center;
-}
-
 .projects-icons {
   display: flex;
   justify-content: center;
@@ -329,10 +326,59 @@ nav a {
   border-radius: 20px;
 }
 
+/* Contact */
+
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 2;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background: #1F1F1F;
+  color: white;
+  padding: 2.5rem;
+  border-radius: 20px;
+  width: 45%;
+  margin: 0 auto;
+}
+
+.contact-img {
+  display: flex;
+  flex: 50%;
+}
+
+.text-field {
+  height: 50px;
+}
+
+
+.text-field, .form-txtarea {
+  font-family: inherit;
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+.form-btn {
+  margin: 20px;
+  width: 50%;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 2rem;
+  font-family: inherit;
+}
+
+.form-btn:focus{
+  outline: none;
+}
+
 /* Javascript Classes */
 
 .hidden {
   display: none;
 }
 
-/* GOOD BUILD! */
+

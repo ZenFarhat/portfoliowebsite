@@ -78,7 +78,7 @@
     <hr />
     <!-- SKILLS -->
     <section class="skills container" id="skills">
-      <h1 class="skills-heading">My skillset</h1>
+      <h1 class="skills-heading header">My skillset</h1>
       <div class="skills-container">
         <div class="skill-card">
           <i class="fab fa-html5 fa-5x html-icon skill-icon"></i>
@@ -166,7 +166,7 @@
     </section>
     <hr />
     <section class="projects container" id="projects">
-      <h1 class="project-heading">What I've created</h1>
+      <h1 class="project-heading header">What I've created</h1>
       <div class="projects-container">
         <div class="projects-icons">
           <div class="project-gallery-img project-btn travelly-btn">
@@ -194,16 +194,18 @@
     </section>
     <hr />
     <div class="contact container" id="contact">
-      <h1>Get in touch</h1>
-      <form action="mailto:zeinfarhat6@gmail.com" method="post" enctype="text/plain">
+      <h1 class="header">Get in touch</h1>
+      <form class="contact-form" action="mailto:zeinfarhat6@gmail.com" method="post" enctype="text/plain">
           <label for="name">Your Name/Company:</label>
-          <input type="text" name="name">
+          <input class="text-field" type="text" name="name" placeholder="Name">
           <label for="email">Your contact email:</label>
-          <input type="email" name="email">
+          <input class="text-field" type="email" name="email" placeholder="email@email.com">
           <label for="message">Your message:</label>
-          <input type="textarea" name="message">
+          <textarea name="message" class="form-txtarea" cols="30" rows="10" placeholder="Your message here..."></textarea>
+          <button class="form-btn" type="submit">Send Message</button>
         </form>
     </div>
+  </div>
     <script src="script.js"></script>
   </body>
 </html>
