@@ -35,7 +35,7 @@
       </div>
     </section>
     <!-- ABOUT ME -->
-    <section id="aboutme" class="aboutme">
+    <section id="aboutme" class="aboutme container">
       <div class="aboutme-text">
         <h1 class="aboutme-heading">About me.</h1>
         <p>
@@ -76,7 +76,8 @@
       </div>
     </section>
     <hr />
-    <section class="skills" id="skills">
+    <!-- SKILLS -->
+    <section class="skills container" id="skills">
       <h1 class="skills-heading">My skillset</h1>
       <div class="skills-container">
         <div class="skill-card">
@@ -164,7 +165,7 @@
       </div>
     </section>
     <hr />
-    <section class="projects" id="projects">
+    <section class="projects container" id="projects">
       <h1 class="project-heading">What I've created</h1>
       <div class="projects-container">
         <div class="projects-icons">
@@ -192,6 +193,17 @@
       </div>
     </section>
     <hr />
+    <div class="contact container" id="contact">
+      <h1>Get in touch</h1>
+      <form action="mailto:zeinfarhat6@gmail.com" method="post" enctype="text/plain">
+          <label for="name">Your Name/Company:</label>
+          <input type="text" name="name">
+          <label for="email">Your contact email:</label>
+          <input type="email" name="email">
+          <label for="message">Your message:</label>
+          <input type="textarea" name="message">
+        </form>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

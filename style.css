@@ -20,6 +20,7 @@
 
 body {
   font-family: var(--ubuntu-font);
+  background-color: #1F1F1F;
 }
 
 ul {
@@ -34,12 +35,16 @@ a {
 
 hr {
   height: 20px;
-  margin: 0 47%;
-  border-top: black dotted 10px;
-  opacity: 0.8;
-  border-bottom: none;
-  border-left: none;
-  border-right: none;
+  border: 0;
+}
+
+/* Helper styles */
+
+.container {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 20px;
+  margin: 20px;
 }
 
 /* Section design */
@@ -149,7 +154,6 @@ nav a {
 
 .aboutme {
   min-height: 80vh;
-  padding: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -202,7 +206,6 @@ nav a {
 
 /* Skills */
 .skills {
-  padding: 2.5rem;
   text-align: center;
 }
 
@@ -278,11 +281,11 @@ nav a {
 /* projects */
 
 .projects {
-  padding: 2.5rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
+
 .project-heading {
   font-size: 5rem;
   padding: 0 2.5rem 2.5rem 2.5rem;
