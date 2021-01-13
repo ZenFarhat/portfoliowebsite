@@ -74,7 +74,7 @@ nav a {
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 15%;
 }
 
@@ -119,6 +119,23 @@ nav a {
 .orange {
   color: #ff5a00;
   text-decoration: underline;
+}
+
+.hero-icons {
+  margin-top: 40px;
+}
+
+.hero-icons a {
+  color: white;
+}
+
+.hero-icon {
+  margin: 0 10px;
+  transition: color 0.2s ease-in-out;
+}
+
+.hero-icon:hover {
+  color: #ff5a00;
 }
 
 .aboutme {
@@ -475,6 +492,10 @@ footer a {
 
   .hero-text h2 {
     font-size: 2.5rem;
+  }
+
+  .hero-icons {
+    font-size: 1rem;
   }
 
   /* interests */

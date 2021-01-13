@@ -11,7 +11,7 @@
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 15%;
 }
 
@@ -57,4 +57,21 @@
 .orange {
   color: $orange;
   text-decoration: underline;
+}
+
+.hero-icons {
+  margin-top: 40px;
+}
+
+.hero-icons a {
+  color: white;
+}
+
+.hero-icon {
+  margin: 0 10px;
+  transition: color 0.2s ease-in-out;
+}
+
+.hero-icon:hover {
+  color: $orange;
 }
