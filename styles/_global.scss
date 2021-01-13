@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $ubuntu-font;
+  background-color: #1f1f1f;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: $bebas-font;
+}
+
+hr {
+  height: 20px;
+  border: 0;
+}

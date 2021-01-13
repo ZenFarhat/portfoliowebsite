@@ -1,0 +1,60 @@
+.hero {
+  background-image: url(/img/hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  padding: 0 2.5rem;
+  line-height: 2;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+
+.hero-text h1 {
+  font-size: 10rem;
+  color: white;
+
+  text-shadow: $text-shadow;
+}
+
+.hero-text h2 {
+  font-size: 4rem;
+  color: white;
+}
+
+.contact-btn {
+  margin-top: 100px;
+  padding: 16px 50px;
+  font-size: 2.5rem;
+  background-color: transparent;
+  border: white 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.contact-btn a {
+  color: white;
+}
+
+.contact-btn:focus {
+  outline: none;
+}
+
+.contact-btn:active {
+  transform: scale(0.98);
+}
+
+.contact-btn:hover {
+  background-color: gray;
+}
+
+.orange {
+  color: $orange;
+  text-decoration: underline;
+}

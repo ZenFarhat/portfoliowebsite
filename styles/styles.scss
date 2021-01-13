@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Ubuntu:wght@400;700&display=swap");
+
+$text-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+$orange: #ff5a00;
+$arvo-font: "Arvo", serif;
+$bebas-font: "Bebas Neue", cursive;
+$ubuntu-font: "Ubuntu", sans-serif;
+
+@import "global";
+@import "nav";
+@import "hero";
+@import "about-me";
+@import "projects";
+@import "contact";
+@import "footer";
+
+.section {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.header {
+  text-align: center;
+  font-size: 5rem;
+  padding: 2.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.burger {
+  cursor: pointer;
+}
+
+/* BIGGER SCREENS */
+
+@media only screen and (min-width: 938px) {
+  .burger {
+    display: none;
+  }
+
+  .projects-videos video {
+    width: 800px;
+    height: auto;
+  }
+
+  /* Projects */
+  .projects-icons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .projects-videos video {
+    width: 80vw;
+    height: auto;
+  }
+}
+
+/* SMALL SCREENS */
+@media only screen and (max-width: 937px) {
+  .header {
+    font-size: 3.5rem;
+  }
+
+  .section {
+    padding: 0.5rem;
+  }
+  html {
+    max-width: 100vw;
+  }
+  .nav-list {
+    display: none;
+  }
+  /* Hero Section */
+  .hero {
+    margin: 0 auto;
+    font-size: 2rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-text {
+    left: 0;
+    top: 0;
+    background-color: #1f1f1f;
+    width: 100%;
+    opacity: 80%;
+    height: auto;
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 0.5rem;
+  }
+
+  .hero-text h1 {
+    font-size: 5rem;
+  }
+
+  .hero-text h2 {
+    font-size: 2.5rem;
+  }
+
+  /* interests */
+
+  .aboutme-heading {
+    line-height: 1;
+  }
+
+  .aboutme-interests {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* projects */
+
+  .projects-icons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projects-videos video {
+    width: 80vw;
+    height: auto;
+  }
+
+  .section.contact-form {
+    height: 80vh;
+  }
+  .contact-form {
+    width: 80vw;
+    padding: 0.5rem;
+  }
+  .contact-form h2 {
+    line-height: 1.5;
+  }
+}
