@@ -1,0 +1,32 @@
+.projects-container {
+  text-align: center;
+  justify-content: center;
+  min-height: 50vh;
+  line-height: 5;
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+.project-icon {
+  font-size: 5rem;
+  margin: 50px;
+}
+
+.project-icon {
+  color: white;
+  transition: transform 0.2s ease-in-out;
+}
+
+.youtube-icon {
+  color: #ff0000;
+}
+
+.project-icon:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,39 @@
+.form-container {
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #111111;
+  border-radius: 20px;
+  padding: 2rem;
+
+  input,
+  textarea {
+    border-radius: 20px;
+    margin: 20px 0;
+    padding: 10px;
+  }
+
+  input,
+  textarea {
+    font-family: inherit;
+  }
+}
+
+form input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.send-btn {
+  font-size: 2rem;
+}
+
+.send-btn:active {
+  transform: scale(0.98);
+}
