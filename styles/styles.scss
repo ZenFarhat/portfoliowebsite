@@ -32,6 +32,10 @@ $ubuntu-font: "Ubuntu", sans-serif;
   display: none;
 }
 
+.active {
+  display: block;
+}
+
 .burger {
   cursor: pointer;
 }
@@ -77,9 +81,19 @@ $ubuntu-font: "Ubuntu", sans-serif;
   html {
     max-width: 100vw;
   }
+
+  // Nav Bar
+
   .nav-list {
     display: none;
   }
+
+  .nav-list.show {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
   /* Hero Section */
   .hero {
     margin: 0 auto;

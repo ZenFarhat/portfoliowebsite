@@ -11,9 +11,22 @@ const travellyBox = document.querySelector(".travelly-box")
 const tdogBox = document.querySelector(".tindog-box")
 
 
-// FUNCTIONALITY
-addHidden()
+const burger = document.querySelector('.burger')
+const navList = document.querySelector(".nav-list")
 
+
+// FUNCTIONALITY
+
+
+// NAV BURGER
+
+burger.addEventListener('click', () => {
+    navList.classList.toggle('show')
+})
+
+
+// VIDEO SECTION
+addHidden()
 
 
 ejoyBtn.addEventListener('click', () => {
