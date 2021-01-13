@@ -1,0 +1,48 @@
+.skills-container {
+}
+
+.skill-icon {
+  display: flex;
+  font-size: 5rem;
+  flex: 20%;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  transition: transform 0.2s ease-in;
+}
+
+.skill-icon:hover {
+  transform: scale(1.1);
+}
+
+.html-icon {
+  color: #e86229;
+}
+
+.css-icon {
+  color: #254bdf;
+}
+
+.js-icon {
+  color: #d3b32b;
+}
+
+.node-icon {
+  color: #87bf00;
+}
+
+.sass-icon {
+  color: #cf649a;
+}
+
+.react-icon {
+  color: #5ed3f3;
+}
+
+.database-icon {
+  color: #01588b;
+}
+
+.java-icon {
+  color: #e51f24;
+}
