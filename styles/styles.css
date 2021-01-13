@@ -515,4 +515,14 @@ footer a {
 .burger {
   cursor: pointer;
 }
+
+.transition-fade {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 1;
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
+}
 /*# sourceMappingURL=styles.css.map */
