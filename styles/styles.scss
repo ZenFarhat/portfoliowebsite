@@ -84,6 +84,12 @@ $ubuntu-font: "Ubuntu", sans-serif;
 
   // Nav Bar
 
+  nav {
+    position: sticky;
+    top: 0;
+    min-height: 5vh;
+    z-index: 10;
+  }
   .nav-list {
     display: none;
   }
