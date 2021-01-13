@@ -10,14 +10,11 @@
 body {
   font-family: "Ubuntu", sans-serif;
   background-color: black;
+  color: white;
 }
 
 ul {
   list-style: none;
-} 
-
-.penis {
-  color: blue;
 }
 
 a {
@@ -168,337 +165,69 @@ nav a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 50%;
-      -ms-flex: 50%;
-          flex: 50%;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .aboutme-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-flex: 50%;
-      -ms-flex: 50%;
-          flex: 50%;
-  padding: 2.5rem;
-  line-height: 2.5rem;
-}
-
-.aboutme-interests {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-flex: 50%;
-      -ms-flex: 50%;
-          flex: 50%;
+  line-height: 3;
+  background-color: #131313;
   padding: 2.5rem;
 }
 
-.icon-heading {
-  font-size: 2rem;
-}
-
-.aboutme-card {
-  text-align: center;
-}
-
-.card-text {
-  margin-top: 30px;
-  font-size: 1.5rem;
-}
-
-.aboutme-icon {
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.aboutme-icon:hover {
-  color: #ff5a00;
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
-}
-
-.skills {
-  text-align: center;
-}
-
-.skills-container {
+.hobbies {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #131313;
+  padding: 2.5rem;
+  height: 100%;
 }
 
-.skill-card {
+.hobby {
   text-align: center;
-  line-height: 2;
-  margin: 30px 0;
-  -webkit-box-flex: 20%;
-      -ms-flex: 20%;
-          flex: 20%;
-  padding: 2rem;
-}
-
-.skill-card p {
-  font-size: 1.5rem;
-  margin-top: 5px;
-}
-
-.skill-icon {
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-.skill-icon:hover {
-  -webkit-transform: scale(1.4);
-          transform: scale(1.4);
-}
-
-.fa-star {
   color: #ff5a00;
 }
 
-.html-icon {
-  color: #fc490b;
-}
-
-.css-icon {
-  color: #167dbe;
-}
-
-.js-icon {
-  color: #f7df1e;
-}
-
-.node-icon {
-  color: #689f63;
-}
-
-.java-icon {
-  color: #73a1fb;
-}
-
-.bootstrap-icon {
-  color: #8211fa;
-}
-
-.react-icon {
-  color: #61dbfb;
-}
-
-.sass-icon {
-  color: #cf649a;
-}
-
-.database-icon {
-  color: #2f2f88;
-}
-
-.projects {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.projects-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.projects-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.project-gallery-img img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100px;
-  width: 100px;
-  border-radius: 20px;
-  cursor: pointer;
-  margin: 20px;
-  border: gray solid 5px;
-}
-
-.projects-videos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 5;
-      -ms-flex: 5;
-          flex: 5;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.video {
-  height: 70vh;
-  width: auto;
-  border: 10px solid black;
-  border-radius: 20px;
-}
-
-.contact {
-  min-height: 80vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.contact-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin: 0 auto;
-  width: 50vw;
-  background-color: #1f1f1f;
-  opacity: 0.98;
-  text-align: center;
-  border-radius: 20px;
-  padding: 2.5rem;
-  color: white;
-  font-size: 3rem;
-  line-height: 2;
-}
-
-.contact-form textarea {
-  resize: none;
-}
-
-.contact-form input,
-textarea {
-  font-size: 1.5rem;
-  font-family: inherit;
-}
-
-.form-field {
-  margin: 10px 0;
-  border-radius: 20px;
-  padding: 10px;
-}
-
-.form-field:focus {
-  outline: none;
-}
-
-.form-btn {
-  padding: 0.5rem;
+.hobby p {
   font-size: 2rem;
-  border-radius: 20px;
-  font-family: inherit;
+  margin: 10px;
 }
 
-.form-btn:focus {
-  outline: none;
-}
-
-.form-btn:active {
-  -webkit-transform: scale(0.98);
-          transform: scale(0.98);
-}
-
-footer {
-  min-height: 10vh;
-  background-color: white;
-  margin: 0;
-  padding: 1rem;
-  text-align: center;
-  font-size: 1rem;
-  background-color: #808080;
-  color: white;
-}
-
-footer a {
-  color: white;
-}
-
-.footer-icons {
-  margin-top: 20px;
-}
-
-.footer-icon {
-  margin: 0 10px;
-  cursor: pointer;
-  -webkit-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-
-.footer-icon:hover {
-  color: var(--orange);
+.hobby-icon {
+  font-size: 5rem;
 }
 
 .section {
-  background-color: white;
   padding: 2.5rem;
-  border-radius: 20px;
-  margin: 20px;
+  min-height: 80vh;
 }
 
 .header {
@@ -519,7 +248,6 @@ footer a {
   cursor: pointer;
 }
 
-<<<<<<< HEAD
 .transition-fade {
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -528,162 +256,5 @@ footer a {
 
 html.is-animating .transition-fade {
   opacity: 0;
-=======
-/* BIGGER SCREENS */
-@media only screen and (min-width: 938px) {
-  .burger {
-    display: none;
-  }
-  .projects-videos video {
-    width: 800px;
-    height: auto;
-  }
-  /* Projects */
-  .projects-icons {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .projects-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  .projects-videos video {
-    width: 80vw;
-    height: auto;
-  }
-}
-
-/* SMALL SCREENS */
-@media only screen and (max-width: 937px) {
-  .header {
-    font-size: 3.5rem;
-  }
-  .section {
-    padding: 0.5rem;
-  }
-  html {
-    max-width: 100vw;
-  }
-  nav {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    min-height: 5vh;
-    z-index: 10;
-  }
-  .nav-list {
-    display: none;
-  }
-  .nav-list.show {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100%;
-  }
-  /* Hero Section */
-  .hero {
-    margin: 0 auto;
-    font-size: 2rem;
-    min-height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .hero-text {
-    left: 0;
-    top: 0;
-    background-color: #1f1f1f;
-    width: 100%;
-    opacity: 80%;
-    height: auto;
-    position: static;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    border-radius: 20px;
-    padding: 0.5rem;
-  }
-  .hero-text h1 {
-    font-size: 5rem;
-  }
-  .hero-text h2 {
-    font-size: 2.5rem;
-  }
-  .hero-icons {
-    font-size: 1rem;
-  }
-  /* interests */
-  .aboutme-heading {
-    line-height: 1;
-  }
-  .aboutme-interests {
-    padding: 0;
-    margin: 0;
-  }
-  .skill-card {
-    -webkit-box-flex: 50%;
-        -ms-flex: 50%;
-            flex: 50%;
-  }
-  /* projects */
-  .projects-icons {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  .projects-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .projects-videos video {
-    width: 80vw;
-    height: auto;
-  }
-  .section.contact-form {
-    height: 80vh;
-  }
-  .contact-form {
-    width: 80vw;
-    padding: 0.5rem;
-  }
-  .contact-form h2 {
-    line-height: 1.5;
-  }
->>>>>>> parent of 4546091... version 2/GB
 }
 /*# sourceMappingURL=styles.css.map */
