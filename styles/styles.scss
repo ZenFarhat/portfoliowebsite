@@ -10,6 +10,7 @@ $ubuntu-font: "Ubuntu", sans-serif;
 @import "nav";
 @import "hero";
 @import "about-me";
+@import "skills";
 @import "projects";
 @import "contact";
 @import "footer";
@@ -121,6 +122,12 @@ $ubuntu-font: "Ubuntu", sans-serif;
   .aboutme-interests {
     padding: 0;
     margin: 0;
+  }
+
+  // Skills
+
+  .skill-card {
+    flex: 50%;
   }
 
   /* projects */

@@ -1,0 +1,70 @@
+.skills {
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  text-align: center;
+  line-height: 2;
+  margin: 30px 0;
+  flex: 20%;
+  padding: 2rem;
+}
+
+.skill-card p {
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+.skill-icon {
+  transition: all 0.4s ease-in-out;
+}
+
+.skill-icon:hover {
+  transform: scale(1.4);
+}
+
+.fa-star {
+  color: $orange;
+}
+
+.html-icon {
+  color: #fc490b;
+}
+
+.css-icon {
+  color: #167dbe;
+}
+
+.js-icon {
+  color: #f7df1e;
+}
+
+.node-icon {
+  color: #689f63;
+}
+
+.java-icon {
+  color: #73a1fb;
+}
+
+.bootstrap-icon {
+  color: #8211fa;
+}
+
+.react-icon {
+  color: #61dbfb;
+}
+
+.sass-icon {
+  color: #cf649a;
+}
+.cl {
+  font-style: italic;
+}
