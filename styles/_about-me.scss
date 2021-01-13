@@ -1,33 +1,25 @@
-.aboutme {
-  min-height: 80vh;
+.aboutme-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  flex: 50%;
+  flex-direction: row;
 }
 
 .aboutme-text {
   display: flex;
-  flex: 1 1 50%;
   flex-direction: column;
   justify-content: center;
+  flex: 50%;
   padding: 2.5rem;
   line-height: 2.5rem;
 }
 
-.aboutme-heading {
-  font-size: 5rem;
-  margin: 50px 0;
-}
-
 .aboutme-interests {
   display: flex;
-  flex: 1 1 50%;
   flex-direction: row;
   flex-wrap: wrap;
-  flex: 100%;
   align-items: center;
   justify-content: space-around;
+  flex: 50%;
   padding: 2.5rem;
 }
 
