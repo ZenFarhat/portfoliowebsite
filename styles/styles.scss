@@ -6,17 +6,8 @@ $arvo-font: "Arvo", serif;
 $bebas-font: "Bebas Neue", cursive;
 $ubuntu-font: "Ubuntu", sans-serif;
 
-@import "global";
-@import "nav";
-@import "hero";
-@import "about-me";
-@import "skills";
-@import "projects";
-@import "contact";
-@import "footer";
-@import "media-queries";
-
 // Helper classes
+
 .section {
   padding: 2.5rem;
   min-height: 80vh;
@@ -26,12 +17,20 @@ $ubuntu-font: "Ubuntu", sans-serif;
   text-align: center;
   font-size: 5rem;
   padding: 2.5rem;
+  background: #f12711;
+  background: -webkit-linear-gradient(to right, #f12711 0%, #f5af19 100%);
+  background: -moz-linear-gradient(to right, #f12711 0%, #f5af19 100%);
+  background: linear-gradient(to right, #f12711 0%, #f5af19 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.hidden {
-  display: none;
-}
-
-.active {
-  display: block;
-}
+@import "global";
+@import "nav";
+@import "hero";
+@import "about-me";
+@import "skills";
+@import "projects";
+@import "contact";
+@import "footer";
+@import "media-queries";

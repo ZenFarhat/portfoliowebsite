@@ -1,4 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Ubuntu:wght@400;700&display=swap");
+.section {
+  padding: 2.5rem;
+  min-height: 80vh;
+}
+
+.header {
+  text-align: center;
+  font-size: 5rem;
+  padding: 2.5rem;
+  background: #f12711;
+  background: -webkit-gradient(linear, left top, right top, from(#f12711), to(#f5af19));
+  background: linear-gradient(to right, #f12711 0%, #f5af19 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -402,52 +418,114 @@ footer {
   color: #ff5a00;
 }
 
+.burger {
+  display: none;
+}
+
 @media only screen and (max-width: 780px) {
+  .header {
+    font-size: 3.5rem;
+  }
+  .container {
+    padding: 0.5rem;
+  }
+  .section {
+    padding: 1rem;
+  }
+  nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: fixed;
+    background-color: #111111;
+    border: 2px solid #ff5a00;
+    border-radius: 20px;
+    margin: 5px;
+    z-index: 10;
+  }
+  .burger {
+    display: block;
+    padding: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    color: #ff5a00;
+  }
+  .nav-list {
+    display: none;
+  }
+  .nav-list.shown {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1rem;
+  }
   .hero-text h1 {
     font-size: 5rem;
   }
   .hero-text h2 {
     font-size: 4rem;
   }
+  .hero-text button {
+    margin-top: 30px;
+    font-size: 2rem;
+  }
+  .aboutme-text {
+    padding: 1rem;
+  }
   .hobbies {
-    -webkit-box-flex: 100%;
-        -ms-flex: 100%;
-            flex: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .hobby {
-    margin: 20px auto;
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+    margin: 2px;
+  }
+  .skills-container {
+    padding: 0rem;
+  }
+  .skill-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+    padding: 1rem;
   }
   .projects-text {
-    line-height: 2;
+    line-height: 1.5;
   }
   .projects-text h2 {
-    font-size: 1.5rem;
+    margin-bottom: 30px;
   }
-  .projects-text p {
-    font-size: 1rem;
+  .projects-text i {
+    margin: 50px;
   }
-}
-
-.section {
-  padding: 2.5rem;
-  min-height: 80vh;
-}
-
-.header {
-  text-align: center;
-  font-size: 5rem;
-  padding: 2.5rem;
-}
-
-.hidden {
-  display: none;
-}
-
-.active {
-  display: block;
+  .form-container {
+    width: 100%;
+    padding: 0;
+  }
+  .contact {
+    margin-bottom: 2.5rem;
+  }
+  form {
+    width: 90%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

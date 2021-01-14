@@ -1,4 +1,56 @@
+.burger {
+  display: none;
+}
+
 @media only screen and (max-width: 780px) {
+  // General
+
+  .header {
+    font-size: 3.5rem;
+  }
+
+  .container {
+    padding: 0.5rem;
+  }
+
+  .section {
+    padding: 1rem;
+  }
+
+  // NAV
+
+  nav {
+    flex-direction: column;
+    position: fixed;
+    background-color: #111111;
+    border: 2px solid $orange;
+    border-radius: 20px;
+    margin: 5px;
+    z-index: 10;
+  }
+
+  .burger {
+    display: block;
+    padding: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    color: $orange;
+  }
+  .nav-list {
+    display: none;
+  }
+
+  .nav-list.shown {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  // HERO
   .hero-text {
     h1 {
       font-size: 5rem;
@@ -6,24 +58,63 @@
     h2 {
       font-size: 4rem;
     }
+
+    button {
+      margin-top: 30px;
+      font-size: 2rem;
+    }
+  }
+
+  // ABOUT
+  .aboutme-text {
+    padding: 1rem;
   }
 
   .hobbies {
-    flex: 100%;
-    flex-direction: column;
+    flex-wrap: wrap;
   }
+
   .hobby {
-    margin: 20px auto;
+    flex: 50%;
+    margin: 2px;
   }
 
+  // skills
+
+  .skills-container {
+    padding: 0rem;
+  }
+
+  .skill-icon {
+    display: flex;
+    flex: 50%;
+    padding: 1rem;
+  }
+
+  // projects
   .projects-text {
+    line-height: 1.5;
+
     h2 {
-      font-size: 1.5rem;
-    }
-    p {
-      font-size: 1rem;
+      margin-bottom: 30px;
     }
 
-    line-height: 2;
+    i {
+      margin: 50px;
+    }
+  }
+
+  // Form
+  .form-container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .contact {
+    margin-bottom: 2.5rem;
+  }
+
+  form {
+    width: 90%;
   }
 }
