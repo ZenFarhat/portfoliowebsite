@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 780px) {
+@media (max-width: 780px) {
   // General
 
   .header {
@@ -128,5 +128,11 @@
       font-size: 1.5rem;
       padding: 1rem;
     }
+  }
+}
+
+@media (max-width: 360px) {
+  .hero-text {
+    line-height: 1.5;
   }
 }
