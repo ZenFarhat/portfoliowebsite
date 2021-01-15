@@ -332,6 +332,10 @@ nav a {
   color: #ff0000;
 }
 
+.book-icon {
+  color: #ff5a00;
+}
+
 .project-icon:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
@@ -447,7 +451,7 @@ footer {
   .burger {
     display: block;
     padding: 1rem;
-    font-size: 3rem;
+    font-size: 2rem;
     cursor: pointer;
     color: #ff5a00;
   }
@@ -526,6 +530,17 @@ footer {
   }
   form {
     width: 90%;
+    padding: 0.5rem;
+  }
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  form .send-btn {
+    font-size: 1.5rem;
+    padding: 1rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
