@@ -9,13 +9,7 @@
   font-size: 5rem;
   padding: 2.5rem;
   background: #f12711;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#f12711),
-    to(#f5af19)
-  );
+  background: -webkit-gradient(linear, left top, right top, from(#f12711), to(#f5af19));
   background: linear-gradient(to right, #f12711 0%, #f5af19 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -25,7 +19,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
@@ -56,14 +50,14 @@ nav {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   min-height: 10vh;
 }
 
@@ -90,11 +84,11 @@ nav a {
   background-position: center;
   background-size: cover;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 90vh;
   padding: 0 2.5rem;
   line-height: 2;
@@ -106,8 +100,8 @@ nav a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
 }
 
@@ -145,20 +139,14 @@ nav a {
 
 .contact-btn:active {
   -webkit-transform: scale(0.98);
-  transform: scale(0.98);
+          transform: scale(0.98);
 }
 
 .contact-btn:hover {
   background: #f12711;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#f5af19),
-    to(#f12711)
-  );
+  background: -webkit-gradient(linear, left top, right top, from(#f5af19), to(#f12711));
   background: linear-gradient(to right, #f5af19, #f12711);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border: 1px solid transparent;
@@ -192,13 +180,13 @@ nav a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #1a1a1a;
   border-radius: 20px;
   border: 10px solid #1a1a18;
@@ -209,14 +197,14 @@ nav a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 50%;
-  -ms-flex: 50%;
-  flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   line-height: 3;
   padding: 2.5rem;
 }
@@ -226,14 +214,14 @@ nav a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 50%;
-  -ms-flex: 50%;
-  flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 2.5rem;
   height: 100%;
 }
@@ -258,14 +246,14 @@ nav a {
   display: flex;
   font-size: 5rem;
   -webkit-box-flex: 20%;
-  -ms-flex: 20%;
-  flex: 20%;
+      -ms-flex: 20%;
+          flex: 20%;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 3rem;
   -webkit-transition: -webkit-transform 0.2s ease-in;
   transition: -webkit-transform 0.2s ease-in;
@@ -275,7 +263,7 @@ nav a {
 
 .skill-icon:hover {
   -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .html-icon {
@@ -313,8 +301,8 @@ nav a {
 .projects-container {
   text-align: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   min-height: 50vh;
   line-height: 5;
 }
@@ -330,6 +318,7 @@ nav a {
 .project-icon {
   font-size: 5rem;
   margin: 50px;
+  text-align: center;
 }
 
 .project-icon {
@@ -350,16 +339,16 @@ nav a {
 
 .project-icon:hover {
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .form-container {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   min-height: 50vh;
   padding: 2rem;
 }
@@ -370,8 +359,8 @@ form {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #111111;
   border-radius: 20px;
   padding: 2rem;
@@ -400,7 +389,7 @@ textarea:focus {
 
 .send-btn:active {
   -webkit-transform: scale(0.98);
-  transform: scale(0.98);
+          transform: scale(0.98);
 }
 
 footer {
@@ -410,14 +399,14 @@ footer {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 1rem;
 }
 
@@ -451,8 +440,8 @@ footer {
   nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     position: fixed;
     background-color: #111111;
     border: 2px solid #ff5a00;
@@ -476,17 +465,17 @@ footer {
     display: flex;
     width: 100%;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 1rem;
   }
   .hero-text h1 {
@@ -504,13 +493,13 @@ footer {
   }
   .hobbies {
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .hobby {
     -webkit-box-flex: 50%;
-    -ms-flex: 50%;
-    flex: 50%;
-    margin: 2px;
+        -ms-flex: 50%;
+            flex: 50%;
+    margin: 20px;
   }
   .skills-container {
     padding: 0rem;
@@ -520,8 +509,8 @@ footer {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-flex: 50%;
-    -ms-flex: 50%;
-    flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
     padding: 1rem;
   }
   .projects-text {
