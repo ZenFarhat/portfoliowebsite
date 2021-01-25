@@ -9,7 +9,7 @@
 }
 
 .skill-icon:hover {
-  transform: scale(1.1);
+  transform: scale(1.07);
 }
 
 .html-icon {
@@ -42,4 +42,15 @@
 
 .java-icon {
   color: #e51f24;
+}
+
+.firebase-icon {
+  color: #e86229;
+
+  p {
+    font-size: 2rem;
+  }
+
+  display: flex;
+  flex-direction: column;
 }

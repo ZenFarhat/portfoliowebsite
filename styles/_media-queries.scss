@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 414px) {
   // General
 
   .header {
@@ -53,15 +53,15 @@
   // HERO
   .hero-text {
     h1 {
-      font-size: 5rem;
+      font-size: 4rem;
     }
     h2 {
-      font-size: 4rem;
+      font-size: 3rem;
     }
 
     button {
       margin-top: 30px;
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
   }
 
@@ -72,10 +72,12 @@
 
   .hobbies {
     flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0;
   }
 
   .hobby {
-    flex: 50%;
+    flex: 1;
     margin: 20px;
   }
 

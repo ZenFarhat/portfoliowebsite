@@ -262,8 +262,8 @@ nav a {
 }
 
 .skill-icon:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
 }
 
 .html-icon {
@@ -296,6 +296,21 @@ nav a {
 
 .java-icon {
   color: #e51f24;
+}
+
+.firebase-icon {
+  color: #e86229;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.firebase-icon p {
+  font-size: 2rem;
 }
 
 .projects-container {
@@ -427,7 +442,7 @@ footer {
   display: none;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 414px) {
   .header {
     font-size: 3.5rem;
   }
@@ -479,14 +494,14 @@ footer {
     padding: 1rem;
   }
   .hero-text h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .hero-text h2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .hero-text button {
     margin-top: 30px;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .aboutme-text {
     padding: 1rem;
@@ -494,11 +509,16 @@ footer {
   .hobbies {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0;
   }
   .hobby {
-    -webkit-box-flex: 50%;
-        -ms-flex: 50%;
-            flex: 50%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
     margin: 20px;
   }
   .skills-container {
