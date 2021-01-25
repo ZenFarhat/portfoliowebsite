@@ -2,11 +2,11 @@
   display: none;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 704px) {
   // General
 
   .header {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   .container {
@@ -53,16 +53,20 @@
   }
 
   // HERO
+
+  .hero {
+    height: 100vh;
+  }
+
   .hero-text {
     h1 {
-      font-size: 4rem;
+      font-size: 4.5rem;
     }
     h2 {
-      font-size: 3rem;
+      font-size: 3.5rem;
     }
 
     button {
-      margin-top: 30px;
       font-size: 1.8rem;
     }
   }
@@ -70,6 +74,9 @@
   // ABOUT
   .aboutme-text {
     padding: 1rem;
+    font-size: 1rem;
+    flex: 100%;
+    text-align: center;
   }
 
   .hobbies {
@@ -81,6 +88,7 @@
   .hobby {
     flex: 1;
     margin: 20px;
+    font-size: 1rem;
   }
 
   // skills
@@ -101,6 +109,7 @@
 
     h2 {
       margin-bottom: 30px;
+      font-size: 2rem;
     }
 
     i {
@@ -119,8 +128,8 @@
   }
 
   form {
-    width: 90%;
-    padding: 0.5rem;
+    width: 100%;
+    padding: 1rem;
     input,
     textarea {
       width: 100%;

@@ -379,18 +379,20 @@ form {
   background-color: #111111;
   border-radius: 20px;
   padding: 2rem;
+  width: 500px;
 }
 
 form input,
 form textarea {
   border-radius: 20px;
   margin: 20px 0;
-  padding: 10px;
+  padding: 20px;
 }
 
 form input,
 form textarea {
   font-family: inherit;
+  font-size: 1rem;
 }
 
 form input:focus,
@@ -400,6 +402,7 @@ textarea:focus {
 
 .send-btn {
   font-size: 2rem;
+  cursor: pointer;
 }
 
 .send-btn:active {
@@ -425,6 +428,11 @@ footer {
   padding: 1rem;
 }
 
+footer h2 {
+  margin: 20px;
+  text-align: center;
+}
+
 .footer-icons {
   margin: 20px;
 }
@@ -442,9 +450,9 @@ footer {
   display: none;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 704px) {
   .header {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .container {
     padding: 0.5rem;
@@ -499,18 +507,25 @@ footer {
     -webkit-transition: display 0.3s ease;
     transition: display 0.3s ease;
   }
+  .hero {
+    height: 100vh;
+  }
   .hero-text h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
   .hero-text h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   .hero-text button {
-    margin-top: 30px;
     font-size: 1.8rem;
   }
   .aboutme-text {
     padding: 1rem;
+    font-size: 1rem;
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    text-align: center;
   }
   .hobbies {
     -ms-flex-wrap: wrap;
@@ -526,6 +541,7 @@ footer {
         -ms-flex: 1;
             flex: 1;
     margin: 20px;
+    font-size: 1rem;
   }
   .skills-container {
     padding: 0rem;
@@ -544,6 +560,7 @@ footer {
   }
   .projects-text h2 {
     margin-bottom: 30px;
+    font-size: 2rem;
   }
   .projects-text i {
     margin: 50px;
@@ -556,8 +573,8 @@ footer {
     margin-bottom: 2.5rem;
   }
   form {
-    width: 90%;
-    padding: 0.5rem;
+    width: 100%;
+    padding: 1rem;
   }
   form input,
   form textarea {

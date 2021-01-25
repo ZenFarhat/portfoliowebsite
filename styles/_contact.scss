@@ -11,17 +11,19 @@ form {
   background-color: #111111;
   border-radius: 20px;
   padding: 2rem;
+  width: 500px;
 
   input,
   textarea {
     border-radius: 20px;
     margin: 20px 0;
-    padding: 10px;
+    padding: 20px;
   }
 
   input,
   textarea {
     font-family: inherit;
+    font-size: 1rem;
   }
 }
 
@@ -32,8 +34,9 @@ textarea:focus {
 
 .send-btn {
   font-size: 2rem;
-}
+  cursor: pointer;
 
-.send-btn:active {
-  transform: scale(0.98);
+  &:active {
+    transform: scale(0.98);
+  }
 }
