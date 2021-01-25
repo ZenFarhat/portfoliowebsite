@@ -458,11 +458,12 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
     position: fixed;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     background-color: #111111;
-    border: 2px solid #ff5a00;
-    border-radius: 20px;
-    margin: 5px;
     z-index: 10;
+    border-radius: 10px;
   }
   .burger {
     display: block;
@@ -473,6 +474,9 @@ footer {
   }
   .nav-list {
     display: none;
+    height: 100vh;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .nav-list.shown {
     display: -webkit-box;
@@ -492,6 +496,8 @@ footer {
         -ms-flex-align: center;
             align-items: center;
     padding: 1rem;
+    -webkit-transition: display 0.3s ease;
+    transition: display 0.3s ease;
   }
   .hero-text h1 {
     font-size: 4rem;

@@ -1,7 +1,20 @@
 const burger = document.querySelector('.burger')
 const navList = document.querySelector('.nav-list')
+const navItem = document.querySelectorAll('.nav-item')
 
 
 burger.addEventListener('click', () => {
-    navList.classList.toggle('shown')
+    toggleNav()
 })
+
+
+navItem.forEach(navOption => {
+    navOption.addEventListener('click', () => {
+        toggleNav()
+    })
+})
+
+
+function toggleNav() {
+    navList.classList.toggle('shown')
+}
