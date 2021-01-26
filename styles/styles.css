@@ -357,6 +357,14 @@ nav a {
           transform: scale(1.2);
 }
 
+.amazon-project {
+  color: #f78f00;
+}
+
+.tesla-project {
+  color: #e82127;
+}
+
 .form-container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;

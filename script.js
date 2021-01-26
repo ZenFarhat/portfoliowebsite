@@ -15,6 +15,3 @@ navItem.forEach(navOption => {
 })
 
 
-function toggleNav() {
-    navList.classList.toggle('shown')
-}
