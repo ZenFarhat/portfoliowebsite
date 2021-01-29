@@ -205,7 +205,7 @@ nav a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  line-height: 3;
+  line-height: 4;
   padding: 2.5rem;
 }
 
@@ -395,6 +395,7 @@ form textarea {
   border-radius: 20px;
   margin: 20px 0;
   padding: 20px;
+  border: none;
 }
 
 form input,
@@ -458,9 +459,10 @@ footer h2 {
   display: none;
 }
 
-@media (max-width: 704px) {
+@media (max-width: 734px) {
   .header {
     font-size: 3rem;
+    padding: 1rem;
   }
   .container {
     padding: 0.5rem;
@@ -468,15 +470,18 @@ footer h2 {
   .section {
     padding: 1rem;
   }
+  body p {
+    font-size: 1rem;
+  }
   nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     position: fixed;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background-color: #111111;
     z-index: 10;
     border-radius: 10px;
@@ -505,9 +510,9 @@ footer h2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -517,15 +522,18 @@ footer h2 {
   }
   .hero {
     height: 100vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .hero-text h1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
   .hero-text h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .hero-text button {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   .aboutme-text {
     padding: 1rem;
@@ -549,7 +557,12 @@ footer h2 {
         -ms-flex: 1;
             flex: 1;
     margin: 20px;
+  }
+  .hobby p {
     font-size: 1rem;
+  }
+  .hobby-icon {
+    font-size: 3rem;
   }
   .skills-container {
     padding: 0rem;
@@ -558,13 +571,14 @@ footer h2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-flex: 50%;
-        -ms-flex: 50%;
-            flex: 50%;
+    -webkit-box-flex: 30%;
+        -ms-flex: 30%;
+            flex: 30%;
     padding: 1rem;
+    font-size: 4rem;
   }
   .projects-text {
-    line-height: 1.5;
+    line-height: 2;
   }
   .projects-text h2 {
     margin-bottom: 30px;
@@ -573,8 +587,35 @@ footer h2 {
   .projects-text i {
     margin: 50px;
   }
+  .project-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .project-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 30%;
+        -ms-flex: 30%;
+            flex: 30%;
+    font-size: 4rem;
+  }
   .form-container {
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
     padding: 0;
   }
   .contact {

@@ -2,11 +2,12 @@
   display: none;
 }
 
-@media (max-width: 704px) {
+@media (max-width: 734px) {
   // General
 
   .header {
     font-size: 3rem;
+    padding: 1rem;
   }
 
   .container {
@@ -17,12 +18,18 @@
     padding: 1rem;
   }
 
+  body {
+    p {
+      font-size: 1rem;
+    }
+  }
+
   // NAV
 
   nav {
     flex-direction: column;
     position: fixed;
-    justify-content: flex-start;
+    justify-content: center;
     background-color: #111111;
     z-index: 10;
     border-radius: 10px;
@@ -46,7 +53,7 @@
     width: 100%;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 1rem;
     transition: display 0.3s ease;
@@ -56,18 +63,19 @@
 
   .hero {
     height: 100vh;
+    justify-content: center;
   }
 
   .hero-text {
     h1 {
-      font-size: 4.5rem;
+      font-size: 4rem;
     }
     h2 {
-      font-size: 3.5rem;
+      font-size: 3rem;
     }
 
     button {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
     }
   }
 
@@ -88,7 +96,13 @@
   .hobby {
     flex: 1;
     margin: 20px;
-    font-size: 1rem;
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .hobby-icon {
+    font-size: 3rem;
   }
 
   // skills
@@ -99,13 +113,14 @@
 
   .skill-icon {
     display: flex;
-    flex: 50%;
+    flex: 30%;
     padding: 1rem;
+    font-size: 4rem;
   }
 
   // projects
   .projects-text {
-    line-height: 1.5;
+    line-height: 2;
 
     h2 {
       margin-bottom: 30px;
@@ -117,9 +132,24 @@
     }
   }
 
+  .project-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-icon {
+    display: flex;
+    flex: 30%;
+    font-size: 4rem;
+  }
+
   // Form
   .form-container {
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
     padding: 0;
   }
 
