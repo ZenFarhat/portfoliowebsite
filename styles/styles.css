@@ -115,6 +115,18 @@ nav a {
   color: white;
 }
 
+.hero-text h3 {
+  font-size: 2rem;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.hero-text a {
+  color: white;
+}
+
 .contact-btn {
   margin-top: 100px;
   margin: 100px auto 0 auto;
